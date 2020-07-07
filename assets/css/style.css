@@ -37,13 +37,13 @@ RESPONSIVE
      margin: 0;
      padding: 0;
      overflow-x: hidden;
-     background-color: lightblue;
+     background-color: white;
 }
 
  h1, h2, h3, h4, h5, h6 {
      font-family: 'Nunito Sans', sans-serif;
      font-weight: 700;
-     color: #ff0000;
+     color:;
      margin: 0px 0px 15px;
 }
  h1 {
@@ -60,11 +60,11 @@ RESPONSIVE
 }
  a {
      font-weight: 600;
-     color:blue;
+     color:;
      text-decoration: none;
 }
  a:hover, a:focus{
-     color: #ff0000;
+     color: goldenrod;
      text-decoration: underline;
      outline: none;
 }
@@ -136,12 +136,12 @@ RESPONSIVE
      font-weight: 600;
      text-transform: uppercase;
      font-size: 13px;
-     color: #fff;
+     color:black;
      -webkit-transition: 0.2s opacity;
      transition: 0.2s opacity;
 }
  .primary-button:hover,.primary-button:focus {
-     color: #fff;
+     color:goldenrod;
      opacity: 0.9;
 }
  .section {
@@ -161,6 +161,8 @@ RESPONSIVE
 }
  .section-row {
      margin-bottom:40px;
+     background:transparent;
+     color:white;
 }
 /*=========================================================
 	NAVIGATION
@@ -169,7 +171,7 @@ RESPONSIVE
         background: #16222A;
         background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
         background: linear-gradient(59deg, #3A6073, #16222A);
-        color: white;
+        color: goldenrod;
         margin-top:100px;
         letter-spacing: 4px;
 }
@@ -338,39 +340,43 @@ RESPONSIVE
      background: transparent;
 }
  .nav-btns .search-form {
-     position: absolute;
-     left: 0;
+     position:absolute;
+     left: 200px;
      right: 0;
-     top: 0;
+     top: 15px;
      bottom: 0px;
      padding: 0px 15px;
      opacity: 0;
      visibility: hidden;
      -webkit-transition: 0.3s all;
      transition: 0.3s all;
+     text-decoration-color: black;
 }
  .nav-btns .search-form.active {
      opacity: 1;
      visibility: visible;
+
 }
  .nav-btns .search-form .search-input {
-     height: 100%;
-     width: 100%;
+    
+     height: 75%;
+     width: 60%;
      border: none;
-     background: #FFF;
-     padding: 0px;
+     background:#3A6073;
+     color:white;
+     padding: 10px;
      font-weight: 600;
 }
  .nav-btns .search-form .search-close {
-     position: absolute;
-     top: 50%;
-     right: 15px;
+     position:relative;
+     top:12px;
+     right: 1px;
      -webkit-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      border: none;
-     background: transparent;
-     line-height: 20px;
+     background: brown;
+     line-height: 10px;
      color: #fff;
      font-size: 22px;
      padding: 0;
@@ -404,6 +410,7 @@ RESPONSIVE
      font-family: 'Nunito Sans', sans-serif;
      font-weight:700;
      font-size:23px;
+     font-color:black;
 }
  .nav-aside-social li {
      display: inline-block;
@@ -919,13 +926,13 @@ footer {
      font-size: 18px;
 }
  .footer-widget a {
-     color: #fff;
+     color:goldenrod;
      -webkit-transition: 0.2s color;
      transition: 0.2s color;
 }
  .footer-widget a:hover, .footer-widget a:focus {
      text-decoration: none;
-     color: #eceef2;
+     color: black;
 }
  .footer-logo {
      margin-bottom: 40px;
